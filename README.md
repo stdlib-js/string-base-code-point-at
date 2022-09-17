@@ -41,6 +41,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-code-point-at/tags). For example,
+
+```javascript
 import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@v0.0.1-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ This function differs from [`String.prototype.codePointAt`][mdn-string-codepoint
 <body>
 <script type="module">
 
-import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@v0.0.1-esm/index.mjs';
+import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@esm/index.mjs';
 
 var v = codePointAt( 'last man standing', 4, false );
 // returns 32
