@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@esm/index.mjs';
+import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@v0.0.1-esm/index.mjs';
 ```
 
 #### codePointAt( string, position, backward )
@@ -100,7 +100,7 @@ This function differs from [`String.prototype.codePointAt`][mdn-string-codepoint
 <body>
 <script type="module">
 
-import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@esm/index.mjs';
+import codePointAt from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-code-point-at@v0.0.1-esm/index.mjs';
 
 var v = codePointAt( 'last man standing', 4, false );
 // returns 32
